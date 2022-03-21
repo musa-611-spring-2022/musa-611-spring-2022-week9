@@ -1,0 +1,15 @@
+p {
+  border: 1px solid red;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #eee;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div > p {
+  width: 100%;
+}
